@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About me</title>
+	<link rel="stylesheet" href="css/gallery.css">
+
+	<script src = "js/gallery.js"></script>
+</head>
+<body>
+	<header>
+	       <nav>
+			<a href="index.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="me.html" class = "active">About me</a>
+	       </nav>
+	</header>
+
+	<div style="text-align: center; padding:2px;">
+		<h1 style="font-size: 40px;">Xplorer Journey Software Development Basics Spring 2022</h1>
+		<p><b>I am joining the 10-week learning journey for anyone.</b></p>
+		<p><b>During this Journey I have learned several topics about Html, CSS and JS.</b></p>
+		<p><b>Using my acquired knowledge I create this webpage as part of the "Optional Project".</b></p>
+		<p><b>Scroll down and go with the mouse pointer over the preview image of my hobbies.</b></p>
+	</div> 
+<br>
+
+
+	<div id = "image">
+		Hover over an image below to display it here.
+	</div>
+
+	<img class = "preview" alt = "Optional Project" src = "images\Optional_Project.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "Mountain Biking" src = "images\bike1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "Dancing" src = "images\Tanzhaltung.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "Running" src = "images\laufen1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+</body>
+</html>
